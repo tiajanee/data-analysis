@@ -1,0 +1,21 @@
+Given population mean and standard deviation, calculate sample size mean of specific population?
+
+normal distribution = bell curve
+
+cumulative probablity (a range of values before or after a point) v. point probability (frequency calculation of some specific value)
+
+AUC of one point - AUC of another point = gives you a specific range
+
+z score = (x - x-bar) / standard deviation
+
+relationship b/w z score and probablity: they are the same? can use one to find the other.
+
+
+good sample size = 30
+
+distribution is affected heavily by both sample size and range of data points
+
+continuous (a variety of data points) v. discrete data (binary outcome)
+    [website sales v. visitors to website]
+    [time  v. #of clicks on a button]
+    
