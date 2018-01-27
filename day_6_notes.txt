@@ -1,0 +1,20 @@
+MYSQL filters:
+
+COUNT
+AVG
+SUM
+MIN
+MAX
+UNIQUE 
+DISTINCT
+GROUP BY
+
+
+
+----Get the player names, player hometowns, school names, player positions, and school conferences for all players with position ‘QB’ or ‘WR’----
+
+
+SELECT player_name, hometown, full_school_name, position, teams.conference FROM benn.college_football_players players
+JOIN benn.college_football_teams teams
+ON players.full_school_name = teams.school_name
+WHERE players.position = 'QB' OR players.position = 'WR'
